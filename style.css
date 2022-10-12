@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F6EDDC;
+}
+
+/* header inicio */
+.header {
+    height: 9.6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1420px;
+    padding: 0px 14px;
+    margin: 0 auto;
+    max-height: 64px;
+
+
+}
+
+.header .logoHeader {
+    position: absolute;
+    width: 149px;
+    height: 33px;
+    left: 147px;
+    top: 36px;
+}
+
+.header .nav{
+    align-items: center;
+    flex-direction: row;
+    padding-right: 24px;
+}
+
+.header .nav .links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+/* headerfim */
+
+/* main inicio */
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+
+}
+
+.main .esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    /* padding: 250px; */
+    margin-left: 27.5vh;  
+}
+
+.main .esquerda .logoMain {
+    padding-bottom: 44px;
+}
+
+.main .esquerda .logoMain .usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.main .esquerda .usuario {
+    padding: 24px;
+}
+
+.main .esquerda .usuario .input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 279.91px;
+    height: 50px;
+    left: calc(50% - 279.91px/2 - 364.04px);
+    top: calc(50% - 0px/2 - 54.6px);
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9255px;
+    color: rgba(0, 0, 0, 0.44);
+    padding-left: 17px;
+    outline: 0;
+    /* border: 1px solid rgba(0, 20, 31, 0.44); */
+}
+
+.main .esquerda .password{
+    padding: 24px;
+}
+
+.main .esquerda .password .senha {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 279.91px;
+    height: 50px;
+    left: calc(50% - 279.91px/2 - 364.04px);
+    top: calc(50% - 0px/2 - 54.6px);
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9255px;
+    color: rgba(0, 0, 0, 0.44);
+    padding-left: 17px;
+    outline: 0;
+}
+
+.main .esquerda .button-login{
+    padding: 18px;
+}
+
+.main .esquerda .button-login .login {
+    width: 279.03px;
+    height: 49.61px;
+    left: calc(50% - 279.91px/2 - 364.04px);
+    top: calc(50% - 0px/2 + 54.6px);
+
+    background: #4E4E4E;
+    border-radius: 4px;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3647px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.main .esquerda .button-login .login:hover {
+    background-color: #458C73
+}
+
+.main .esquerda .recuperar {
+    text-decoration: none;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.main .esquerda .recuperar:hover {
+    color: #458C73;
+}
+
+.main .direita {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: relative;
+}
+
+/* main fim */
+
+/* footer inicios */
+
+.footer footer {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer footer .politca {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer footer .politca .poli a{ 
+    text-decoration: none;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px; 
+
+    color: #000000;
+}
+
+.footer footer .politca .poli a:hover {
+    color: #458C73;
+}
+
+/* footer fim */
