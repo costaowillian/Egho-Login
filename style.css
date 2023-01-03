@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Play';
+    box-sizing: border-box;
 }
 
 body {
@@ -43,6 +47,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+    color: #000000;
 }
 /* headerfim */
 
@@ -79,7 +84,7 @@ body {
 }
 
 .main .esquerda .usuario {
-    padding: 24px;
+    padding: 8px;
 }
 
 .main .esquerda .usuario .input {
@@ -101,7 +106,7 @@ body {
 }
 
 .main .esquerda .password{
-    padding: 24px;
+    padding: 8px;
 }
 
 .main .esquerda .password .senha {
@@ -120,6 +125,84 @@ body {
     color: rgba(0, 0, 0, 0.44);
     padding-left: 17px;
     outline: 0;
+}
+
+.main .esquerda .gerar-senha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;  
+    
+}
+
+.main .esquerda .gerar-senha spam{
+    font-weight: 800; 
+    cursor: pointer;
+    transition: .4s;
+}
+
+.main .esquerda .gerar-senha spam:hover{
+    color: #458C73;
+}
+
+.main .esquerda .gerar-senha .gerar-btn {
+    width: 179.03px;
+    height: 39.61px;
+    left: calc(50% - 279.91px/2 - 364.04px);
+    top: calc(50% - 0px/2 + 54.6px);
+
+    background: #4E4E4E;
+    border-radius: 4px;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3647px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.main .esquerda .gerar-senha .gerar-btn:hover {
+    background-color: #458C73
+}
+
+#senha-gerada {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px; 
+}
+
+#senha-gerada .copiar-senha {
+    left: calc(50% - 279.91px/2 - 364.04px);
+    top: calc(50% - 0px/2 + 54.6px);
+
+    background: #4E4E4E;
+    border-radius: 4px;
+
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3647px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#senha-gerada .copiar-senha:hover {
+    background-color: #458C73
+}
+
+.hide {
+    display: none;
 }
 
 .main .esquerda .button-login{
@@ -143,6 +226,8 @@ body {
 
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+    transition: .4s;
 }
 
 .main .esquerda .button-login .login:hover {
@@ -171,6 +256,8 @@ body {
     flex-direction: row;
     padding-left: relative;
 }
+
+
 
 /* main fim */
 

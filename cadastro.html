@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="1639414111947.jpg">
     <script src="_assets/js/scrip.js" type="text/javascript" defer></script>
-    <title>Faça seu login | EGHO</title>
+    <script src="_assets/js/senha.js" type="text/javascript" defer></script>
+    <title>Faça seu cadastro | EGHO</title>
 </head>
 
 <body class="body">
@@ -25,16 +26,29 @@
         <aside class="esquerda">
             <img class="logoMain" src="_assets/logo_EGHO.svg">
             <div class="usuario">
-                <input class="input" id="email" type="email" name="Usuário" id="Usuário" placeholder="USUÁRIO">
+                <input class="input" type="text" name="nome" id="nome" placeholder="NOME" required>
+            </div>
+            <div class="usuario">
+                <input class="input" type="text" name="sobrenome" id="sobrenome" placeholder="SOBRENOME" required>
+            </div>
+            <div class="usuario">
+                <input class="input" id="email" type="email" name="Usuário" placeholder="E-MAIL" required>
             </div>
             <div class="password">
-                <input class="senha" id="senha" type="password" name="senha" id="senha" placeholder="SENHA">
+                <input class="senha" id="senha" type="password" name="senha" placeholder="SENHA" required>
+            </div>
+            <div class="gerar-senha">
+                <p>Criar senha segura! <spam id="gerar-senha">Clique aqui</spam></p>
+            </div>
+            <div id="senha-gerada"  class="hide">
+                <p>A sua nova senha é:</p>
+                <h4></h4>
+                <button class="copiar-senha" id="Copy-Button">Copiar senha</button>
             </div>
             <div class="button-login">
-                <button class="login">FAZER LOGIN</button>
+                <button class="login">CADASTRAR</button>
             </div>
             <a class="recuperar" href="#"><p class="recuperar">Problemas para efetuar login?</p></a>
-            <a class="recuperar" href="#"><p class="recuperar">Cadastrar-se</p></a>
         </aside>
     
 
