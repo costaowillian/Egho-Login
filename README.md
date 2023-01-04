@@ -5,4 +5,6 @@ Projeto de tela de login e cadastro com gerador de senhas.
 
 Esse é um projeto pessoal.
 
-Conheça a Egho Studios: https://www.instagram.com/eghostudios/
+
+
+Conheça a {Egho Studios](https://www.instagram.com/eghostudios/ "Egho Studio")
