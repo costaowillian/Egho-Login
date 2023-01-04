@@ -1,9 +1,10 @@
 # Egho-Login
 
-Projeto de tela de login e cadastro com gerador de senhas.
 -Projeto em andamento!-
 
-Esse é um projeto pessoal.
+Projeto de tela de login e cadastro com gerador de senhas.
+
+As tecnologias base do projeto são: HTML, CSS e JavaScript.
 
 ## Redes Sociais / Contato
 
